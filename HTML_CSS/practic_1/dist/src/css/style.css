@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/bg/Layer-bg.jpg') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+.logo .logo_img {
+
+   display: block;
+   margin: 0 auto;
+   
+}
+.logo .logo_text {
+    font-size: 15px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 500;
+text-align: center;
+text-transform: uppercase;
+margin-top: 14px;
+}
+
+h1 {
+    margin-top: 52px;
+}
+
+h2.title {
+    margin-top: 33px;
+}
+.title {
+
+    font-size: 41px;
+line-height: 24px;
+color: #f9bf3b;
+font-weight: 900;
+text-align: center;
+text-transform: uppercase;
+
+}
+.simple .title_big {
+    margin-top: 20px;
+    font-size: 80px;
+color: #ffffff;
+font-weight: 900;
+text-align: center;
+text-transform: uppercase;
+}
+
+.promo .promo_text {
+    padding: 0 13px;
+    margin-top: 17px;
+    font-size: 21px;
+line-height: 28px;
+color: #ffffff;
+font-weight: 300;
+text-align: center;
+}
+
+.promo .promo_text span {
+    font-weight: 700;
+    color: #f9bf3b;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    width: 313px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    filter: drop-shadow(-0.707px -0.707px 0px rgba(0,0,0,0.22));
+    background-image: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0,0,0,0.23);
+    outline: none;
+}
+
+.more {
+    margin-top: 72px;
+}
+
+.more .more_text {
+    font-size: 15px;
+color: #ffffff;
+font-weight: 250;
+text-align: center;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+/* ------------------ section2----------------------------------------*/
+
+.waiting {
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    font-size: 30px;
+    color: #252525;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.waiting .waiting_subheader {
+    margin-top: 15px;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4a4a4a;
+    font-weight: 400;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    font-size: 15px;
+line-height: 21px;
+color: #4a4a4a;
+font-weight: 300;
+}
+
+/*---------------------3 section--------------------------------------------*/
+
+
+.optimization {
+    position: relative;
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+margin-left: 391px;
+font-size: 28px;
+color: #299cbd;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4a4a4a;
+    font-weight: 300;
+    text-align: left;
+}
+
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+.optimization .optimization_img {
+position: absolute;
+top: 48px;
+left: 0;
+z-index: -1;
+}
+
+/*--------------------4section-----------------------------------*/
+.finish {
+    min-height: 448px;
+    padding: 84px 0 79px 0; 
+    background: url('../img/finish/finish.png')center center/cover no-repeat;
+}
+.finish .finish_header {
+    font-size: 30px;
+    line-height: 12px;
+    color: #efefef;
+    font-weight: 400;
+    text-align: center;
+}
+.finish .finish_divider {
+    margin: 0 auto;
+    margin-top: 23px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+
+.finish .finish_wrapper {
+display: flex;
+margin-top: 41px;
+justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 196px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    border-radius: 58px;
+    background-color: #b4e2ff;
+}
+
+
+.finish .finish_wrapper .finish_item .finish_descr {
+margin-top: 23px;
+font-size: 17px;
+line-height: 20px;
+color: #efefef;
+font-weight: 300;
+text-align: center;
+}
+
+/*------------------------5section-------------------------------*/
+
+
+.bonus {
+    min-height: 639px;
+    background-color: #efefef;
+    padding: 87px 0 87px 0;
+}
+
+.bonus .bonus_img {
+    display: block;
+    margin: 0 auto;
+}
+    
+.bonus .bonus_text {
+    margin-top: 42px;
+    font-size: 33px;
+    line-height: 43px;
+    color: #252525;
+    font-weight: 400;
+    text-align: center;
+}
+    
+.bonus .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 52px;
+    width: 313px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    filter: drop-shadow(-0.707px -0.707px 0px rgba(0,0,0,0.22));
+    background-image: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0,0,0,0.23);
+    outline: none;
+}
+    
+/*-------------------------6section-----------------------------------------*/
+
+
+.webinar {
+    min-height: 512px;
+    padding: 80px 0 60px 0;
+}
+
+.wrapper_webinar {
+    width: 577px;
+    height: 367px;
+    margin: 0 auto;
+}
+
+.webinar .webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+.webinar .webinar_header {
+    margin-top: 35px;
+    font-size: 30px;
+    line-height: 12px;
+    color: #252525;
+    font-weight: 400;
+    text-align: center;
+}
+.webinar .webinar_date {
+    margin-top: 30px;
+    font-size: 36px;
+    line-height: 12px;
+    color: #299cbd;
+    font-weight: 700;
+    text-align: center;
+}
+.webinar .webinar_subheader {
+    margin-top: 25px;
+    font-size: 23px;
+line-height: 20px;
+color: #4a4a4a;
+font-weight: 400;
+text-align: center;
+}
+
+
+/*---------------------footer-----------------------------------*/
+
+
+footer {
+height: 167px;
+background-color: #1a1a1a;
+padding: 60px 0 69px 0;
+}
+
+footer .service {
+display: block;
+margin: 0 auto;
+
+}
+
+footer .service span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+span {
+    line-height: 21px;
+    color: #888888;
+    font-weight: 300;
+}
+
+footer .service span a {
+    font-size: 15px;
+    line-height: 21px;
+    color: #888888;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer .tel {
+    font-size: 15px;
+    line-height: 21px;
+    color: #888888;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+
+
+
+
